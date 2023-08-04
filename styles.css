@@ -1,0 +1,73 @@
+.top-nav-item {
+    margin-right: 2em;
+}
+
+.content-section {
+padding-top: 100px;
+}
+
+.small-icon-img {
+    width: 1em;
+    position: relative;
+}
+
+.nav-logo-img-md {
+max-width: 19em; 
+position: relative;
+left: -35px;
+display: none;
+}
+
+.nav-logo-img-sm {
+    max-width: 12em; 
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .nav-logo-img-md {
+        display: block;
+    }
+
+    .nav-logo-img-sm {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+.banner-image {
+    position: relative;
+    height: 30em;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url("BannerPhoto.png")
+}
+
+.banner-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.btn-banner {
+    position: relative;
+    top: 70%;
+    left: 40%;
+    z-index: 2;
+}
+
+.exit-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
